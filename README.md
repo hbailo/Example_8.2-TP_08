@@ -16,13 +16,17 @@ permitir establecer el duty cycle con números flotantes.
 # Árbol de funciones
 
 brightControlInit()
+
     ├── setPeriod()
+
     └── setDutyCycle()
 
 setDutyCycle()
+
     └── mbed (library) para el manejo de los PWMs.
 
 setPeriod()
+
     └── mbed (library) para el manejo de los PWMs.
 
 El PWM se actualiza automáticamente y no requiere de llamar una función update() en el módulo, solo su inicialización.
