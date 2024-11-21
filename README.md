@@ -26,3 +26,11 @@ setPeriod()
     └── mbed (library) para el manejo de los PWMs.
 
 El PWM se actualiza automáticamente y no requiere de llamar una función update() en el módulo, solo su inicialización.
+
+# Captura del PWM
+
+En la siguiente imágen se muestra una captura del PWM generado para los 3 leds.
+
+<picture>
+    <img src=img/pwm-2.png>
+</picture>
